@@ -44,7 +44,7 @@ namespace WebApi_Student_NetCore.Controllers
 
         public Student GetStudentById(int id)
         {
-           Student std=rp.GetStudentById(id);
+            Student std = rp.GetStudentById(id);
             return std;
         }
 
